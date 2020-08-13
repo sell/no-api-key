@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "A simple wrapper/module for my api, https://no-api-key.com",
   "main": "index.js",
+  "repository": "git://github.com/sell/no-api-key.git",
   "directories": {
     "test": "test"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/no-api-key" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "node-fetch": "^2.6.0"
   },

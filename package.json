@@ -1,21 +1,23 @@
 {
   "name": "no-api-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple wrapper/module for my api, https://no-api-key.com",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "git://github.com/sell/no-api-key.git",
   "directories": {
-    "test": "test"
+    "test": "src/test"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "axios": "^0.21.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "scripts": {},
+  "keywords": [
+    "no-api-key", "no api key"
+  ],
   "author": "",
   "license": "ISC"
 }
